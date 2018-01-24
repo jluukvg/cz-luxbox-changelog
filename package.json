@@ -1,19 +1,19 @@
 {
-  "name": "cz-conventional-changelog",
+  "name": "cz-luxbox-changelog",
   "version": "0.0.0-semantically-released.0",
-  "description": "Commitizen adapter following the conventional-changelog format.",
+  "description": "Commitizen adapter for LuxBox based on the 'cz-conventional-changelog' adapter.",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
     "test": "echo 'Tests need to be setup!'",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "homepage": "https://github.com/commitizen/cz-conventional-changelog",
+  "homepage": "https://github.com/jluukvg/cz-luxbox-changelog",
   "repository": {
     "type": "git",
-    "url": "https://github.com/commitizen/cz-conventional-changelog.git"
+    "url": "https://github.com/jluukvg/cz-luxbox-changelog.git"
   },
-  "author": "Jim Cummins <jimthedev@gmail.com>",
+  "author": "Jesús Aguilar <jesus@getluxbox.com>",
   "license": "MIT",
   "dependencies": {
     "conventional-commit-types": "^2.0.0",
