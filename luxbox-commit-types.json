@@ -43,10 +43,6 @@
     "revert": {
       "description": "Reverts a previous commit",
       "title": "Reverts"
-    },
-    "test type": {
-      "description": "This is just a test type",
-      "title": "Tests"
     }
   }
 }
